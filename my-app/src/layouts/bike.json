@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "ВЕЛОСИПЕД ГОРНЫЙ MIKADO BLITZ LITE 26/18",
+    "price" : "7 224 руб",
+    "description" : "MICADO",
+    "img": "../image/1p.jpg"
+  },
+  {
+    "id": "2",
+    "name": "ВЕЛОСИПЕД ГОРНЫЙ ALTAIR MTB HT 1.0 26/19",
+    "price" : "7 264 руб",
+    "description" : "ALTAIR",
+    "img": "../image/1p.jpg"
+  },
+  {
+    "id": "3",
+    "name": "ВЕЛОСИПЕД ГОРНЫЙ ALTAIR MTB HT 1.0 26/19",
+    "price" : "7 264 руб",
+    "description" : "ALTAIR",
+    "img": "../image/1p.jpg"
+},
+  {
+    "id": "4",
+    "name": "ВЕЛОСИПЕД ГОРНЫЙ MAVERICK 1.0 26/19,5",
+    "price" : "7 392 руб",
+    "description" : "MAVERICK",
+    "img": "../image/1p.jpg"
+  },
+  {
+    "id": "5",
+    "name": "ВЕЛОСИПЕД ГОРНЫЙ MIKADO BLITZ LITE 26/18",
+    "price" : "7 224 руб",
+    "description" : "MICADO",
+    "img": "../image/1p.jpg"
+  },
+  {
+    "id": "6",
+    "name": "ВЕЛОСИПЕД ГОРНЫЙ MIKADO BLITZ LITE 26/18",
+    "price" : "7 224 руб",
+    "description" : "MICADO",
+    "img": "../image/1p.jpg"
+  }
+]
