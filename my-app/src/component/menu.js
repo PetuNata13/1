@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css'
-import {Navbar,Nav,Button,ButtonToolbar} from "react-bootstrap";
+import {Navbar,Nav} from "react-bootstrap";
 import '../App.css'
 import {Link} from "react-router-dom";
 
@@ -15,8 +15,7 @@ class Menu extends React.Component {
                     <Nav className="Menu mr-auto">
                         <Link to="/contact">Покупателям</Link>
                         <Link to="/">Велосипеды</Link>
-                        <Link to="#zapchasti">Запчасти</Link>
-                        <Link to="#aksesuar">Аксессуары</Link>
+
 
                     </Nav>
                     <input type='button' className='busket'/>
