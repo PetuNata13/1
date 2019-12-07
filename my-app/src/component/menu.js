@@ -9,7 +9,7 @@ class Menu extends React.Component {
         return (
             <div className='container menu'>
 
-                <div >
+                <div>
                 <Navbar className="Men" bg="light" variant="light">
 
                     <Nav className="Menu mr-auto">
@@ -18,7 +18,7 @@ class Menu extends React.Component {
 
 
                     </Nav>
-                    <input type='button' className='busket'/>
+                    <input type='button' className='basket'/>
                 </Navbar>
 
 

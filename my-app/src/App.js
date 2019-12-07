@@ -7,6 +7,7 @@ import Header from "./component/header";
 import Magazine from "../src/layouts/Magazine";
 import Footer from "../src/component/Footer";
 import Contact from "./layouts/contact";
+import TovarPage from "./component/TovarPage";
 
 import {Route,Switch} from 'react-router-dom'
 
@@ -17,6 +18,7 @@ class App extends React.Component {
       <Header/>
       <Menu/>
       <Switch>
+          <Route path='/tovar/:IdTovar' component={TovarPage}/>
       <Route exact path='/' component={Magazine}/>
       <Route path='/contact' component={Contact}/>
       </Switch>

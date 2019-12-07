@@ -3,8 +3,13 @@ import 'bootstrap/dist/css/bootstrap.css'
 import {Button} from "react-bootstrap";
 import '../App.css'
 import {Card} from "react-bootstrap"
+import {withRouter} from 'react-router';
 
 class TovarCard extends React.Component {
+    About=(bike)=>{
+        console.log(bike)
+        this.props.history.push(`/tovar/${bike.id}`);
+    };
     render (){
         const bikes= this.props.bikes;
         return (
@@ -19,7 +24,7 @@ class TovarCard extends React.Component {
                                     <Card.Text>
                                         {bike.description}
                                     </Card.Text>
-                                    <Button variant="primary"> Посмотреть </Button>
+                                    <Button variant="primary" onClick={() => this.About(bike)}>Просмотреть</Button>
                                 </Card.Body>
                             </Card>
                         </div>
@@ -32,4 +37,4 @@ class TovarCard extends React.Component {
         )
     }
 }
-export default TovarCard
+export default withRouter(TovarCard)
